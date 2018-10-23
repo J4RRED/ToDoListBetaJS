@@ -1,0 +1,13 @@
+h1 {
+  font-size: large;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+#smallItalic {
+  font-size: x-small;
+  font-style: italic;
+}
+
+/* nothing is really happening here in the CSS file because of Bootstrap...
+maybe the future update will have more going on here. */
