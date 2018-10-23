@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="panel panel-default">
+      <div class="panel-heading"><h1>To-Do List App</h1></div>
+    </div>
+    
+      <div class="alert alert-info">
+        <strong>How To:</strong> 
+        Simply input items into the box below, hit "Click Me"
+        and BAM!  There's your To-Do List!
+     </div>
+     
+    <form id="todoForm">
+        <input id='todoInput' placeholder='Enter text here' value="">
+        <button type='button' onClick='todoList()' class="btn btn-primary" id='btn'>Click Me
+        <span class="badge"></span></button>
+        <i class="glyphicon glyphicon-thumbs-up"></i>
+        <p id="smallItalic">* Note: double-clicking your text will select all text
+        so that you do not need to backspace every time.</p>
+        <br/><br/>
+        <div class="alert alert-danger">
+         <strong>Danger!</strong> Hitting 'enter' on your keyboard will
+         cause the list to reset and all changes will be lost!
+        </div>
+    </form> 
+    
+    <ol id='todoList'>
+    </ol>
+      
+    <div class="form-group">
+      <label for="comment">Comments:</label>
+      <textarea class="form-control" rows="3" id="comment"></textarea>
+      <p id="smallItalic">* Note: comment box can be resized by dragging the lower-right corner.</p>
+    </div>
+  </body>
+
+</html>
