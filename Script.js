@@ -7,7 +7,7 @@ function todoList() {
 };
 
 
-
+//working out a cleaner, more interactive version below//
 /*window.onload = function () {
   var todoForm = document.getElementById('todoForm');
   var todoInput = document.getElementById('todoInput');
